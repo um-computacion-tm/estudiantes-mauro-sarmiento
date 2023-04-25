@@ -12,7 +12,9 @@ class Alumno(Persona):
 
 
     def inscribirseEnMateria(self, codigoMateria):
-        self.materias_alumno.append(self.claseMateria.obtenerMaterias(codigoMateria))
+        materia = Materia().obtenerMaterias(codigoMateria)
+        self.materias_alumno.append(materia)
+
 
     def __repr__(self):
         return f'### {self.legajo}, {self.nombre}, {self.email}, {self.asistencia}, {self.materias_alumno} ###'
