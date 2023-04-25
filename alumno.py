@@ -13,7 +13,8 @@ class Alumno(Persona):
 
     def inscribirseEnMateria(self, codigoMateria):
         materia = Materia().obtenerMaterias(codigoMateria)
-        self.materias_alumno.append(materia)
+        if materia is not None:
+            self.materias_alumno.append(materia)
 
 
     def __repr__(self):
