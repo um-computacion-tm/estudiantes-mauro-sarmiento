@@ -1,5 +1,5 @@
-# cliente1 = {'nombre' : 'Pepe','apellido': 'Honguito'}
-# cliente2 = {'nombre' :'Pepa','apellido' : 'Fernandez'}
+# cliente1 = {'nombre' : 'Pipa','apellido': 'Higuaín'}
+# cliente2 = {'nombre' :'Cristiano','apellido' : 'Ronaldo'}
 
 
 # class Persona:
@@ -15,7 +15,7 @@
 # if __name__ == '__main__':
 #     p1 = Persona(cliente1)
 #     p2 = Persona(cliente2)
-#     p4 = Persona('Vicente', 'Cara')
+#     p4 = Persona('Pepe', 'Sand')
 #     print(p1)
 #     print(p2)
 #     print(p4)
