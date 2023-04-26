@@ -15,6 +15,9 @@ if __name__ == '__main__':
     pepeSand.inscribirseEnMateria(15)
     pepeSand.inscribirseEnMateria(13)
     pepeSand.inscribirseEnMateria(54)
+    #! En el siguiente caso, al ya estar inscripto en la materia, no se 
+    #! suma absolutamente nada a la lista
+    pepeSand.inscribirseEnMateria(54)
     #! En el siguiente caso, al no existir el código de la materia
     #! no se suma absolutamente nada a la lista.
     pepeSand.inscribirseEnMateria(55)

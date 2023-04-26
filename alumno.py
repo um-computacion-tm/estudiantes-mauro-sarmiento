@@ -7,13 +7,12 @@ class Alumno(Persona):
         self.legajo = legajo
         self.asistencia = 0
         self.materias_alumno = []
-        self.claseMateria = Materia()
         super().__init__(nombre, email)
 
 
     def inscribirseEnMateria(self, codigoMateria):
         materia = Materia().obtenerMaterias(codigoMateria)
-        if materia is not None:
+        if (materia is not None) and (materia not in self.materias_alumno):
             self.materias_alumno.append(materia)
 
 
